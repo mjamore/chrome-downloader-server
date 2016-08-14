@@ -1,0 +1,23 @@
+{
+  "name": "chrome-downloader-server",
+  "version": "1.0.0",
+  "description": "Backend application for downloading YouTube videos",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjamore/chrome-downloader-server.git"
+  },
+  "author": "Michael Amore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjamore/chrome-downloader-server/issues"
+  },
+  "homepage": "https://github.com/mjamore/chrome-downloader-server#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
